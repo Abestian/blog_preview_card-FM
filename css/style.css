@@ -24,12 +24,12 @@ main {
 }
 
 .card {
-	position: relative;
+	/* position: relative; */
 	margin: 0 20px;
 	padding: 24px;
 	min-width: 284px;
-	max-width: 384px;
-	height: 522px;
+	width: 384px;
+	/* height: 522px; */
 	background-color: hsl(0, 0%, 100%);
 	border: 1px solid (0, 0%, 7%);
 	border-radius: 20px;
@@ -79,12 +79,9 @@ h1 a:hover,
 
 .author {
 	display: flex;
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
 	margin-top: 12px;
-	position: absolute;
-	bottom: 0;
-	padding: 24px 0;
 }
 
 .user-pic img {
