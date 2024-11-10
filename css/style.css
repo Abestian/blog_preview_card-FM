@@ -24,12 +24,10 @@ main {
 }
 
 .card {
-	/* position: relative; */
 	margin: 0 20px;
 	padding: 24px;
 	min-width: 284px;
 	width: 384px;
-	/* height: 522px; */
 	background-color: hsl(0, 0%, 100%);
 	border: 1px solid (0, 0%, 7%);
 	border-radius: 20px;
