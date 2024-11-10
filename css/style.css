@@ -29,7 +29,7 @@ main {
 	min-width: 284px;
 	width: 384px;
 	background-color: hsl(0, 0%, 100%);
-	border: 1px solid (0, 0%, 7%);
+	border: 1px solid black;
 	border-radius: 20px;
 	box-shadow: 8px 8px 0;
 }
@@ -85,6 +85,10 @@ h1 a:hover,
 .user-pic img {
 	width: 32px;
 	height: 32px;
+}
+
+.author-name h2 {
+	font-size: clamp(1.4rem, 3.5vw, 1.6rem);
 }
 
 .author-name a {
